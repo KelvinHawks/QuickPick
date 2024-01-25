@@ -1,9 +1,10 @@
 import "./App.css";
+import MainNavigation from "./shared/components/navigation/MainNavigation";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello this is quickpick</h1>
+      <MainNavigation />
     </div>
   );
 }
